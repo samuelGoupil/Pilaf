@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/ModifierFournisseur.css">
+    <title>Modifier Fournisseur</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="image/login.png" alt="login"></li><li><a href="EnregistrerVente.html">Vente</a></li><li><a href="CreerAchat.html">Achat</a></li><li><a href="MouvementDeStock.html">Entrepôt</a> </li><li><a href="CreerArticle.html">Produit</a></li><li><a href="CreerFournisseur.html">Fournisseur</a></li><li><a href="ConsulterPlanning.html#horlun">Personnel</a></li><li><a href="CreerClient.html">Client</a></li><li><a href="ConsulterVirements.html">Comptabilité</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="leftBarre">
+        <ul>
+            <li><a href="CreerFournisseur.html">Créer Fournisseur</a></li><br><li><a href="ModifierFournisseur.html">Modifier un fournisseur</a></li><br><li><a href="ConsulterFournisseur.html">Consulter un fournisseur</a> </li>
+        </ul>   
+    </div>
+    <div id="content">
+        <h1>Modifier un fournisseur</h1>
+        <div id="search">
+            <label> Rechercher un fournisseur : </label>
+            <input type="search" value="BioNature" name="recherche">
+        </div>
+        <h3>Veuiller modifier les champs suivants</h3>
+        <div id="formulaire">
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="BioNature" placeholder="Nom" required>
+            </div>
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="785 Avenue Albert Thomas" placeholder="Adresse" required>
+            </div>
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="87000" placeholder="Code Postal" required>
+            </div>
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="Limoges" placeholder="Ville" required>
+            </div>
+            <div class="saisieAssiste"> 
+                <input type="text" role="combobox" aria-expanded="false" value="07 83 21 54 85" placeholder="Téléphone" required>
+            </div>
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="bionaturepro@gmail.com" placeholder="Email" required>
+            </div>
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="119" placeholder="Numéro référencement Client" required>
+            </div>
+            <div class="saisieAssiste">
+                <input type="text" role="combobox" aria-expanded="false" value="XXX XXX XXX" placeholder="numéro d'immatriculation" required>
+            </div>
+        </div>
+        <button id="valider"type="submit">Modifier fournisseur</button>
+    </div>
+</body>
+</html>
